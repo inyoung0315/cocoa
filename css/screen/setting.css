@@ -1,0 +1,76 @@
+@keyframes settingBar{
+    from{
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.setting-list{
+    height: 100vh;
+}
+.setting__setting:hover{
+    box-shadow: 3px 3px 10px 10px rgb(14, 13, 13);
+    border-radius: 20px;
+    border-bottom: none;
+    cursor: pointer;
+}
+.setting__setting{
+    padding: 20px 0;
+    border-bottom: 1px solid  rgba(255, 255, 255,0.5);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   opacity: 0;
+    animation: settingBar 2s linear forwards;
+    cursor: pointer;
+}
+.setting__setting:nth-child(2){
+    animation-delay: 0.1s;
+}
+.setting__setting:nth-child(3){
+    animation-delay: 0.2s;
+}
+.setting__setting:nth-child(4){
+    animation-delay: 0.3s;
+}
+.setting__setting:nth-child(5){
+    animation-delay: 0.4s;
+}
+.setting__setting:nth-child(6){
+    animation-delay: 0.5s;
+}
+.setting__setting:nth-child(7){
+    animation-delay: 0.6s;
+}
+.setting__setting:nth-child(8){
+    animation-delay: 0.7s;
+}
+.setting__setting:nth-child(9){
+    animation-delay: 0.8s;
+}
+.setting__setting:last-child{
+    animation-delay: 0.9s;
+}
+.setting__setting:hover{
+    transform: scale(1.1);
+}
+.setting__setting i{
+    opacity: 0.8;
+    margin-right:0 20px;
+    font-size: 22px;
+    padding: 4px;
+}
+.setting__setting h4{
+    opacity: 0.5;
+}
+.setting__setting:nth-child(4){
+    margin-top: 50px;
+    
+}
+.setting__setting:nth-child(8){
+    margin-top: 10px;
+}
+
