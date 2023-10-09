@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import "components/nav-bar.css";
+@import "reset.css";
+@import "components/status-bar.css";
+@import "variables.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/alt-header.css";
+@import "components/no-mobile.css";
+
+@import "screen/setting.css";
+@import "screen/chat.css";
+@import "screen/login.css";
+@import "screen/more.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+
+body{
+  color: white;
+  font-family: "Open Sans",sans-serif;
+  background-image:url("https://i.pinimg.com/originals/df/dc/0a/dfdc0a1d6c005b01da63138a6e9ae3c8.jpg") ;
+}
+.main-screen{
+  padding: 0px var(--horizontal-spcae);
+
+  
+}
